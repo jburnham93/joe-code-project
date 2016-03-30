@@ -1,0 +1,6 @@
+##Spin up a simple http server
+Type this into the terminal:
+
+```
+python -m SimpleHTTPServer
+```
