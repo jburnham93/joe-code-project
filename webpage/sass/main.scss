@@ -1,0 +1,37 @@
+@import "../bower_components/inuit-defaults/settings.defaults";
+@import "../bower_components/inuit-responsive-settings/settings.responsive";
+
+// tools
+@import "../bower_components/inuit-functions/tools.functions";
+@import "../bower_components/inuit-mixins/tools.mixins";
+@import "../bower_components/inuit-tools-widths/tools.widths";
+@import "../bower_components/inuit-responsive-tools/tools.responsive";
+
+@include inuit-widths(3);
+@include inuit-widths(2);
+
+// generic
+@import "../bower_components/inuit-normalize/generic.normalize";
+@import "../bower_components/inuit-box-sizing/generic.box-sizing";
+
+@import "../bower_components/inuit-page/base.page";
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+// objects
+@import "../bower_components/inuit-layout/objects.layout";
+
+// components [JB, THIS IS WHERE YOUR SHIT GOES]
+@import "components/products";
+@import "components/main-nav";
+// [JB, THIS IS WHERE YOUR SHIT ENDS.]
+
+// trumps
+// @import "../bower_components/inuit-widths/trumps.widths";
+@import "../bower_components/inuit-widths-responsive/trumps.widths-responsive";
+@import "../bower_components/inuit-spacing/trumps.spacing";
